@@ -1,0 +1,18 @@
+{
+    "name": "ts-kube",
+    "version": "0.1.0",
+    "description": "Typed kubernetes resource definitions",
+    "main": "target",
+    "files": [
+        "target"
+    ],
+    "scripts": {
+        "clean": "rm -rf 'target'",
+        "build": "npm run clean; tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/jsen-/ts-kube",
+    "keywords": [],
+    "author": "Martin Ivicic",
+    "license": "MIT OR Apache-2.0"
+}
