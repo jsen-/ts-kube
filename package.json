@@ -1,8 +1,9 @@
 {
     "name": "ts-kube",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Typed kubernetes resource definitions",
     "main": "target",
+    "types": "target/index.d.ts",
     "files": [
         "target"
     ],
