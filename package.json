@@ -15,5 +15,8 @@
     "repository": "https://github.com/jsen-/ts-kube",
     "keywords": [],
     "author": "Martin Ivicic",
-    "license": "MIT OR Apache-2.0"
+    "license": "MIT OR Apache-2.0",
+    "devDependencies": {
+        "typescript": "^3.6.4"
+    }
 }
