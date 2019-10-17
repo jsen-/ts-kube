@@ -8,6 +8,7 @@
         "target"
     ],
     "scripts": {
+        "prepublishOnly": "npm run build",
         "clean": "rm -rf 'target'",
         "build": "npm run clean; tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
