@@ -49,7 +49,6 @@ export class Api {
             ca: cacert as any || [],
             host: url_parts.hostname,
             port: get_port(url_parts.port, 443),
-            path: url_parts.path,
             cert: client_cert as any,
             key: client_key as any,
             keepAlive: true,
